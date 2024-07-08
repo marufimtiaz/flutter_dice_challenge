@@ -13,17 +13,10 @@ class DiceWithButton extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(10))),
         child: Container(
           decoration: BoxDecoration(
-            color: Colors.red,
+            color: Colors.red.shade600,
             boxShadow: [
               BoxShadow(
                 color: Colors.red.shade900,
-                offset: Offset(4, 4),
-                blurRadius: 15,
-                spreadRadius: 1,
-              ),
-              BoxShadow(
-                color: Colors.red.shade300,
-                offset: Offset(-4, -4),
                 blurRadius: 15,
                 spreadRadius: 1,
               ),

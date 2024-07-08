@@ -5,6 +5,7 @@ import 'dice.dart';
 void main() {
   return runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.red,
         appBar: AppBar(
@@ -113,7 +114,7 @@ class _DicePageState extends State<DicePage> {
                 child: Padding(
                   padding: _scaledPadding(context),
                   child: DiceWithButton(
-                    image: 'images/dice$rightDiceNumber.png',
+                    image: 'images/dice$leftDiceNumber.png',
                     onPressed: () {
                       numChange();
                     },
