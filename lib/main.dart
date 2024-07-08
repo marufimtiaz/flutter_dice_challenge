@@ -46,12 +46,12 @@ class _DicePageState extends State<DicePage> {
       setState(() {
         left++;
       });
-      return 'You Win!';
+      return 'Player 1 Wins!';
     } else if (leftDiceNumber < rightDiceNumber) {
       setState(() {
         right++;
       });
-      return 'Maruf Wins!';
+      return 'Player 2 Wins!';
     } else
       return 'Draw!';
   }
@@ -94,11 +94,11 @@ class _DicePageState extends State<DicePage> {
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               Text(
-                'You',
+                'Player 1',
                 style: TextStyle(fontSize: 40, color: Colors.white),
               ),
               Text(
-                'Maruf',
+                'Player 2',
                 style: TextStyle(fontSize: 40, color: Colors.white),
               ),
             ],
@@ -141,7 +141,7 @@ class _DicePageState extends State<DicePage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'You: $left\nMaruf:$right',
+                'P1: $left\nP2: $right',
                 style: TextStyle(fontSize: 30, color: Colors.white),
               ),
             ],
