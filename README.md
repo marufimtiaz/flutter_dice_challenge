@@ -17,8 +17,7 @@ This app allows two players to play a game of dice. Each player rolls a die, and
 * Score keeping feature
 * Simple and intuitive user interface
 
-**Screenshots**
---------------
+
 **Screenshots**
 --------------
 
